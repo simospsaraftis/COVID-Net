@@ -124,7 +124,7 @@ with tf.Session() as sess:
     sess.run(init)
 
     # load weights
-    saver.restore(sess, os.path.join(args.weightspath, args.ckptname))
+    #saver.restore(sess, os.path.join(args.weightspath, args.ckptname))
     #saver.restore(sess, tf.train.latest_checkpoint(args.weightspath))
 
     # save base model
